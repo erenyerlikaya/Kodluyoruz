@@ -28,6 +28,8 @@ public class Test {
 		
 		
 		double ortalama = toplam / 5;
+		boolean kosul = ortalama >= 50;
+	    System.out.println("Durum = " + (kosul==true ? "Geçti" : "Kaldý"));
 		
 		System.out.println("Not ortalamanýz : " + ortalama);
 
